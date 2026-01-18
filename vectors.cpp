@@ -7,11 +7,8 @@
 
 using namespace std;
 
-void printVector(vector<int> vect) {
-
-    for (const int v : vect) {
-        cout << v << " ";
-    }
+void printVector(const vector<int>& vect) {
+    for (const int v : vect) cout << v << " ";
     cout << endl;
 }
 
