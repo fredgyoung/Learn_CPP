@@ -7,10 +7,10 @@
 
 using namespace std;
 
-void printVector(const vector<int>& vect) {
+void printVector(const vector<int>& ages, const string& message) {
 
-    cout << "Ages: ";
-    for (const int v : vect) cout << v << " ";
+    cout << message << ": ";
+    for (const int age : ages) cout << age << " ";
     cout << endl;
 
 }
@@ -18,13 +18,13 @@ void printVector(const vector<int>& vect) {
 int main() {
 
     vector<int> ages = {1, 2, 3};
-    printVector(ages);
+    printVector(ages, "Ages");
 
     ages.push_back(4);
-    printVector(ages);
+    printVector(ages, "Ages");
 
     ages.pop_back();
-    printVector(ages);
+    printVector(ages, "Ages");
 
     cout << "Front: " << ages.front() << endl;
     cout << "Back: " << ages.back() << endl;
