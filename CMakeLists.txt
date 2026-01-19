@@ -4,4 +4,4 @@ project(Learn_CPP)
 set(CMAKE_CXX_STANDARD 26)
 
 add_executable(Learn_CPP
-        vectors.cpp)
+        vectors/vectors.cpp)
