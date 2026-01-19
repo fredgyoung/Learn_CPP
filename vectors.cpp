@@ -23,6 +23,9 @@ int main() {
     ages.pop_back();
     printVector(ages);
 
+    cout << "Front: " << ages.front() << endl;
+    cout << "Back: " << ages.back() << endl;
+
 
     return 0;
 }
