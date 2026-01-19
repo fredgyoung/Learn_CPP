@@ -8,8 +8,11 @@
 using namespace std;
 
 void printVector(const vector<int>& vect) {
+
+    cout << "Ages: ";
     for (const int v : vect) cout << v << " ";
     cout << endl;
+
 }
 
 int main() {
